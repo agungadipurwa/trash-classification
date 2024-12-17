@@ -1,6 +1,6 @@
-# Project Title
+# Trash Classification
 
-By [<b>Hema Kalyan Murapaka</b>](https://hemakalyan.netlify.app)
+By [<b>Agung Adipurwa</b>]
 
 Connect with me on social media and explore my work:
 
