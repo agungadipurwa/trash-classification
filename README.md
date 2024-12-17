@@ -16,7 +16,7 @@ Connect with me on social media and explore my work:
 ## About The Project
 
 ## Dataset
-by [<b>HTTP://www.github.com/garythung/trashnet<b>]
+by [Gary Thung](http://www.github.com/garythung/trashnet)
 
 ## Library Requirements
 
