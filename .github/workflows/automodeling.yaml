@@ -2,6 +2,8 @@ name: Auto Model Development
 
 on:
   push:
+    branches:
+      - 'main'
     paths:
       - 'modelling.ipynb'  # Only trigger if modelling.ipynb changes
 
@@ -22,7 +24,7 @@ jobs:
         run: |
           pip install --upgrade pip
           # Install everything needed for your notebook:
-          pip install -r requirement.txt 
+          pip install -r requirements.txt 
           pip install jupyter nbconvert
 
       - name: Export GitHub secret to env
