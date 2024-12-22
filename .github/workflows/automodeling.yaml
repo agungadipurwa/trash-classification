@@ -41,7 +41,7 @@ jobs:
           echo "DATA_URL=${{ secrets.DATA_URL }}" >> $GITHUB_ENV
           echo "WANDB_API_KEY=${{ secrets.WANDB_API_KEY }}" >> $GITHUB_ENV
           echo "DATASET_DICT=${{ secrets.DATASET_DICT }}" >> $GITHUB_ENV
-          echo "ARTIFACT_DIR=${{ secrets.MARTIFACT_DIR }}" >> $GITHUB_ENV
+          echo "ARTIFACT_DIR=${{ secrets.ARTIFACT_DIR }}" >> $GITHUB_ENV
 
       - name: Run Jupyter Notebook
         run: |
