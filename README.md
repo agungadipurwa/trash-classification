@@ -13,10 +13,10 @@ Connect with me on social media and explore my work:
 
 ## Getting Started
 
-This will help you understand how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This will help you better understand how you may be able to give instructions on reproducing projects locally on your own.
+Also helps you to automate model development using `Github Action`, model versioning and tracking using `wandb.ai`
 
-## Installation
+## Installation (Local)
 Follow these steps to clone this repository and install the required dependencies.
 1. Clone the repository:
    ```bash
@@ -36,14 +36,14 @@ Follow these steps to clone this repository and install the required dependencie
    pip install -r requirements.txt
    ```
 
-## GitHub Actions Workflow
+## GitHub Actions Workflow (Automation)
 This repository uses a GitHub Actions workflow to automatically run `create_wandb_dataset.ipynb` or `modeling.ipynb` under certain conditions.
 
 ### How It Works
 1. The workflow definition is in `.github/workflows/autodataset_version.yaml` and `github/workflows/automodeling.yaml`.
-2. It is triggered on push events only when the file modelling.ipynb changes.
-3. It sets up Python 3.10.11, installs dependencies, and executes modelling.ipynb via nbconvert.
-4. The executed notebook is saved as executed_modelling.ipynb (or any name you configure).
+2. It is triggered on push events either create_wandb_dataset.ipynb and modeling.ipynb changes.
+3. It sets up Python 3.10.11, installs dependencies, and executes modeling.ipynb via nbconvert.
+4. The executed notebook is saved as create_wandb_dataset.ipynb and executed_modeling.ipynb (or any name you configure).
 
    ```
    - name: Export GitHub secret to env
@@ -51,8 +51,10 @@ This repository uses a GitHub Actions workflow to automatically run `create_wand
           echo "DATA_URL=${{ secrets.DATA_URL }}" >> $GITHUB_ENV
           echo "WANDB_API_KEY=${{ secrets.WANDB_API_KEY }}" >> $GITHUB_ENV
           echo "DATASET_DICT=${{ secrets.DATASET_DICT }}" >> $GITHUB_ENV
-          echo "ARTIFACT_DIR=${{ secrets.MARTIFACT_DIR }}" >> $GITHUB_ENV
    ```
+### Result
+1. Dataset versioning on wandb.ai
+2. Model versioning on wandb.ai
 
 ## Additional insights
 1. The data contain imbalance label distribution with label trash as the minority. So, need more dataset on that label to make that data pretty good.
