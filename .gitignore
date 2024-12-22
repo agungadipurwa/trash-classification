@@ -13,3 +13,4 @@ ckpt/
 artifacts/
 data/
 env/
+venv/
