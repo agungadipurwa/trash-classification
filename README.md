@@ -1,35 +1,26 @@
 # Trash Classification
 
-By [<b>Agung Adipurwa</b>]
-
 Connect with me on social media and explore my work:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/agungadipurwa)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/agungadipurwa)
-<!---
-[![Medium](https://img.shields.io/badge/Medium-Follow-03a57a?style=flat-square&logo=medium)](https://medium.com/@kalyanmurapaka274)
-[![Twitter](https://img.shields.io/twitter/follow/KalyanM45?style=social)](https://twitter.com/KalyanM45)
-[![Sponsor Hema Kalyan Murapaka](https://img.shields.io/badge/Sponsor-Hema_Kalyan-28a745?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/KalyanMurapaka45)
-**Special Thanks to GitHub Sponsors**
--->
 
 ## About The Project
-
+A deep learning model to classify trash with 6 category with automation model development using Github Action and model versioning and tracking using [wandb.ai](wandb.ai)
 ## Dataset
-by [Gary Thung - Trashnet](http://www.github.com/garythung/trashnet)
+- [Gary Thung - Trashnet](http://www.github.com/garythung/trashnet)
 
-## Library Requirements
+<!-- ## Library Requirements
 
  -
  -
  -
  -
- -
+ - -->
 
 ## Getting Started
 
-This will help you understand how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This will help you understand how you may give instructions on setting up your project locally and <b>reproduce</b> the model.
 
 ## Installation Steps
 
