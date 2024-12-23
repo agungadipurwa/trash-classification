@@ -51,10 +51,10 @@ jobs:
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v4
         with:
-          name: modeling-artifact
+          name: dataset-artifact
           path: executed_create_wandb_dataset.ipynb
 
-      - name: Run Jupyter Dasaset Notebook
+      - name: Run Jupyter Model Notebook
         run: |
           # Execute the notebook. 
           # If the notebook includes code that uses MY_SECRET, it can read it from the env.
@@ -63,4 +63,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: modeling-artifact
-          path: executed_create_wandb_dataset.ipynb
+          path: executed_modeling.ipynb
