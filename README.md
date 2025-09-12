@@ -5,6 +5,8 @@ Connect with me on social media and explore my work:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/agungadipurwa)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/agungadipurwa)
 
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.\
 
 ## About The Project
 
